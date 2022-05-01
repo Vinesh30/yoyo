@@ -42,9 +42,9 @@ public class PaymentServiceApplication {
 				"API for Payment Microservice",
 				"1.0",
 				"Free to use",
-				new springfox.documentation.service.Contact("Harsha Vardhan", "http://Youtube.com", "harshacena@gmail.com"),
+				new springfox.documentation.service.Contact("Vinesh Kumar Reddy", "https://www.linkedin.com/in/vinesh-marthala-2a9b77192", "vini.inreallife@gmail.com"),
 				"API Licence",
-				"http://Youtube.com",
+				"https://www.linkedin.com/in/vinesh-marthala-2a9b77192",
 				Collections.emptyList());
 	}
 

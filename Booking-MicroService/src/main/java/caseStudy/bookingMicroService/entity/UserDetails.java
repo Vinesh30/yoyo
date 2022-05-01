@@ -199,6 +199,4 @@ public class UserDetails
 		// TODO Auto-generated constructor stub
 	}
 	
-	
-
 	}

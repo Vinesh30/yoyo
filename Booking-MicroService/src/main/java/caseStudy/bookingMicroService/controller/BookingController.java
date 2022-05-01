@@ -58,7 +58,7 @@ public class BookingController {
 		int noOfChildren = userDetails.getChildren();
 		int totalPassengers = noOfAdults + noOfChildren;
 		String classType = userDetails.getClassType();
-		restTemplate.getForObject("http://localhost:8081/fare/updateSeats/" + trainNo + "/" + totalPassengers,
+		restTemplate.getForObject("http://localhost:8081/admin/updateSeats/" + trainNo + "/" + totalPassengers,
 				TrainDetails.class);
 
 		return userService.addUserBookingDetails(userDetails);

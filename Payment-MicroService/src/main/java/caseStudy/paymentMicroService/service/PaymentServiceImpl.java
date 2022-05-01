@@ -84,9 +84,9 @@ public class PaymentServiceImpl implements PaymentService {
 
 	// For email notification after successful payment
 	public void sendEmail(PaymentDetails payment) throws AddressException {
-		final Email email = DefaultEmail.builder().from(new InternetAddress("harshacena1222@gmail.com"))
-				.replyTo(new InternetAddress("harshacena1222@gmail.com"))
-				.to(Lists.newArrayList(new InternetAddress("harshacena1222@gmail.com")))
+		final Email email = DefaultEmail.builder().from(new InternetAddress("vini.inreallife@gmail.com"))
+				.replyTo(new InternetAddress("vini.inreallife@gmail.com"))
+				.to(Lists.newArrayList(new InternetAddress("vini.inreallife@gmail.com")))
 				.subject("Payment is Successful")
 				.body("Your payment for PNR Number " + payment.getPnrNo() + " is Successful...!!!").encoding("UTF-8")
 				.build();

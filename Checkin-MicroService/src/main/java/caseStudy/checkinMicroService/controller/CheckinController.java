@@ -42,7 +42,7 @@ public class CheckinController {
 		String pay = user.getPayment();
 		String mail = user.getEmail();
 
-		TrainDetails trainDetails = restTemplate.getForObject("http://localhost:8081/fare/find/" + trainNo,
+		TrainDetails trainDetails = restTemplate.getForObject("http://localhost:8081/admin/find/" + trainNo,
 				TrainDetails.class);
 		String dTime = trainDetails.getDeptTime();
 		String duration = trainDetails.getDuration();

@@ -46,13 +46,13 @@ public class BookingApplication
 	private ApiInfo apiDetails()
 	{
 		return new ApiInfo(
-				"Booking Microservice API Documentation",
-				"API for Booking Microservice",
+				"BookingATicketService API Documentation",
+				"API for BookingATicketService",
 				"1.0",
 				"Free to use",
-				new springfox.documentation.service.Contact("Harsha Vardhan", "http://Youtube.com", "harshacena1222@gmail.com"),
+				new springfox.documentation.service.Contact("Vinesh Kumar Reddy", "https://www.linkedin.com/in/vinesh-marthala-2a9b77192", "vini.inreallife@gmail.com"),
 				"API Licence",
-				"http://Youtube.com",
+				"https://www.linkedin.com/in/vinesh-marthala-2a9b77192",
 				Collections.emptyList());
 	}
 }

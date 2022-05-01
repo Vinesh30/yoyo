@@ -118,18 +118,18 @@ public class UserServiceImpl implements UserService {
 		String data1 = "Your train ticket booking is successful..!!";
 		String data2 = "Please Check the details....!!!!!!";
 		UserDetails userDet = getUserDetailsById(pnrNo);
-		final Email email = DefaultEmail.builder().from(new InternetAddress("harshacena1222@gmail.com"))
-				.replyTo(new InternetAddress("harshacena@gmail.com"))
-				.to(Lists.newArrayList(new InternetAddress("harshacena@gmail.com")))
+		final Email email = DefaultEmail.builder().from(new InternetAddress("vini.inreallife@gmail.com"))
+				.replyTo(new InternetAddress("vini.inreallife@gmail.com"))
+				.to(Lists.newArrayList(new InternetAddress("vini.inreallife@gmail.com")))
 				.subject("Your ticket is booked").body(data1 + "\n" + data2 + "\n" + userDet).encoding("UTF-8").build();
 		emailService.send(email);
 	}
 
 	// For email notification after Cancelled booking
 	public void sendEmails(long pnrNo) throws AddressException {
-		final Email email = DefaultEmail.builder().from(new InternetAddress("harshacena1222@gmail.com"))
-				.replyTo(new InternetAddress("harshacena1222@gmail.com"))
-				.to(Lists.newArrayList(new InternetAddress("harshacena1222@gmail.com")))
+		final Email email = DefaultEmail.builder().from(new InternetAddress("vini.inreallife@gmail.com"))
+				.replyTo(new InternetAddress("vini.inreallife@gmail.com"))
+				.to(Lists.newArrayList(new InternetAddress("vini.inreallife@gmail.com")))
 				.subject("Your ticket is Cancelled")
 				.body("Your booking ticket with PNR Number : " + pnrNo + " is cancelled. "
 						+ "Your payment amount will be credited to your account within 5 to 7 days..!!!")

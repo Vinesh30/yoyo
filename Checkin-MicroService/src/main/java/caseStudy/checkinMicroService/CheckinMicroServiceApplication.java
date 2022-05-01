@@ -44,13 +44,13 @@ public class CheckinMicroServiceApplication {
 	private ApiInfo apiDetails()
 	{
 		return new ApiInfo(
-				"CheckIn Microservice API Documentation",
-				"API for Booking Microservice",
+				"CheckInService API Documentation",
+				"API for CheckInservice",
 				"1.0",
 				"Free to use",
-				new springfox.documentation.service.Contact("Harsha vardhan", "http://Youtube.com", "harshacena1222@gmail.com"),
+				new springfox.documentation.service.Contact("Vinesh Kumar Reddy", "https://www.linkedin.com/in/vinesh-marthala-2a9b77192", "vini.inreallife@gmail.com"),
 				"API Licence",
-				"http://Youtube.com",
+				"https://www.linkedin.com/in/vinesh-marthala-2a9b77192",
 				Collections.emptyList());
 	}
 }
